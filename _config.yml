@@ -15,9 +15,10 @@ author: Antonio M. A. Menezes
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Links:
+    - Kevora: "https://github.com/antoniomenezes/kevora"
+    - Words and Emotions: "https://www.kaggle.com/antoniomenezes/words-in-portuguese-br-and-emotions"
+    - Corpus ISEAR (pt_BR): "https://www.kaggle.com/antoniomenezes/isear-corpus-translated-to-portuguese-br"
   Author's home: "https://antoniomenezes.com.br/"
 
 # --- Logo --- #
