@@ -855,7 +855,7 @@ code {
 
 pre code {
   padding: 0;
-  background-color: {{ site.navbar-col | default: transparent }}; /* transparent; */
+  background-color: transparent;
   border-radius: 0;
 }
 
