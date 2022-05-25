@@ -855,6 +855,7 @@ code {
 
 pre code {
   padding: 0;
+  color: {{ site.text-col | default: "#c7254e" }};
   background-color: transparent;
   border-radius: 0;
 }
