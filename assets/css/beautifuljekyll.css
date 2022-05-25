@@ -820,7 +820,7 @@ table tr {
   padding: 0; 
 }
 table tr:nth-child(2n) {
-  background-color: {{ site.navbar-col | default: "#f8f8f8" }}; /* #f8f8f8; */
+  background-color: {{ site.navbar-border-col | default: "#f8f8f8" }}; /* #f8f8f8; */
 }
 table tr th {
   font-weight: bold;
@@ -848,7 +848,7 @@ table tr td :last-child {
 
 code {
   padding: 0.125rem 0.25rem;
-  color: #c7254e;
+  color: {{ site.text-col | default: "#c7254e" }}; /* #c7254e; */
   background-color: {{ site.navbar-col | default: "#f9f2f4" }}; /* #f9f2f4; */
   border-radius: 0.25rem;
 }
