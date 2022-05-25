@@ -820,7 +820,7 @@ table tr {
   padding: 0; 
 }
 table tr:nth-child(2n) {
-  background-color: {{ site.navbar-border-col | default: "#f8f8f8" }}; /* #f8f8f8; */
+  background-color: {{ site.navbar-col | default: "#f8f8f8" }}; /* #f8f8f8; */
 }
 table tr th {
   font-weight: bold;
@@ -855,7 +855,7 @@ code {
 
 pre code {
   padding: 0;
-  background-color: transparent;
+  background-color: {{ site.navbar-col | default: transparent }}; /* transparent; */
   border-radius: 0;
 }
 
