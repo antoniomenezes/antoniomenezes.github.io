@@ -861,17 +861,20 @@ pre code {
 }
 
 pre {
+  color: {{ site.text-col | default: "#c7254e" }};
   font-size: 0.875rem;
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
 }
 .highlight pre {
+  color: {{ site.text-col | default: "#c7254e" }};
   border: none;
   background: none;
   margin: 0;
 }
 .highlight > pre {
+  color: {{ site.text-col | default: "#c7254e" }};
   background-image: linear-gradient(
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
@@ -880,6 +883,7 @@ pre {
   border-left: 0.4375rem solid #444;
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
+  color: {{ site.text-col | default: "#c7254e" }};
   padding: 0;
 }
 .highlight table,
@@ -891,7 +895,8 @@ pre {
   margin: 0;
 }
 .highlight pre.lineno {
-  color: rgba(0,0,0,0.3);
+  color: {{ site.text-col | default: "#c7254e" }};
+  /*color: rgba(0,0,0,0.3);*/
   border-radius: 0;
   border-right: 2px solid #444;
 }
