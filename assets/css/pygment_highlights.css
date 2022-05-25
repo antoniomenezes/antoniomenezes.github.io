@@ -1,5 +1,5 @@
-.highlight  { background: #272822; } 
-.highlight pre { background-color: #272822; font-size: 16px }
+.highlight  { color: #e6e6e6; background: #272822; } 
+.highlight pre { color: #e6e6e6; background-color: #272822; font-size: 16px }
 
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e; font-style: italic } /* Comment */
