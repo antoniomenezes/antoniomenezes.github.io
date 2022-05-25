@@ -941,12 +941,12 @@ pre {
 }
 
 .box-warning {
-  background-color: #fdac00; /*#fdf5d4;*/
+  background-color: #db6f02; /*#fdf5d4;*/
   border-left-color: #f1c40f;
 }
 
 .box-error {
-  background-color: #ff0000; /*#f4dddb;*/
+  background-color: #ad0202; /*#f4dddb;*/
   border-left-color: #c0392b;
 }
 
