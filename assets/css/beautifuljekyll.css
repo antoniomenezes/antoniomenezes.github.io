@@ -936,22 +936,22 @@ pre {
 }
 
 .box-note {
-  background-color: #eee;
+  background-color: #575757; /*#eee;*/
   border-left-color: #2980b9;
 }
 
 .box-warning {
-  background-color: #fdf5d4;
+  background-color: #fdac00; /*#fdf5d4;*/
   border-left-color: #f1c40f;
 }
 
 .box-error {
-  background-color: #f4dddb;
+  background-color: #ff0000; /*#f4dddb;*/
   border-left-color: #c0392b;
 }
 
 .box-success {
-  background-color: #98FB98;
+  background-color: #1a872d; /*#98FB98;*/
   border-left-color: #3CB371;
 }
 
