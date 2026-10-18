@@ -2,9 +2,9 @@
 layout: post
 title: Orthodiagrams
 subtitle: My own ER designer
-cover-img: /assets/img/grafismo_brasil-1100x232.jpg
-thumbnail-img: /assets/img/nlp_pt_br.jpg
-share-img: /assets/img/grafismo_brasil-1100x232.jpg
+cover-img: /assets/img/about-orthodiagrams-1100x232.jpg
+thumbnail-img: /assets/img/orthodiagrams.png
+share-img: /assets/img/about-orthodiagrams-1100x232.jpg
 tags: [er, database, modeler]
 ---
 
